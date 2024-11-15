@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>8dec3ff6-b7c7-4ff5-b77a-9cdc973e508c</id>
+  <author>N/A</author>
+  <deployer>GITHUB_ZIP_DEPLOY</deployer>
+  <authorEmail>N/A</authorEmail>
+  <message>{"type":"deployment","sha":"5c56af6a019f726835bc1cfb9fd1681c73f48ffd","repoName":"adesche/perti","actor":"erikquinn","slotName":"Production","commitMessage":"Add some half-degree waypoints"}</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2024-04-19T16:23:58.2860534Z</lastSuccessEndTime>
+  <receivedTime>2024-04-19T16:23:47.5344581Z</receivedTime>
+  <startTime>2024-04-19T16:23:48.72639Z</startTime>
+  <endTime>2024-04-19T16:23:58.2860534Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+  <buildSummary />
+</deployment>

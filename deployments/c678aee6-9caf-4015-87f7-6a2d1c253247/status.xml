@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>c678aee6-9caf-4015-87f7-6a2d1c253247</id>
+  <author>N/A</author>
+  <deployer>GITHUB_ZIP_DEPLOY</deployer>
+  <authorEmail>N/A</authorEmail>
+  <message>{"type":"deployment","sha":"a60e82ddec8d4a3428f3ac7ccb56a399832be85a","repoName":"adesche/perti","actor":"erikquinn","slotName":"Production","commitMessage":"Fix bug where map stops drawing when reaching newline containing only whitespace"}</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2023-10-02T04:11:02.901722Z</lastSuccessEndTime>
+  <receivedTime>2023-10-02T04:10:55.2489991Z</receivedTime>
+  <startTime>2023-10-02T04:10:56.5009245Z</startTime>
+  <endTime>2023-10-02T04:11:02.901722Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+  <buildSummary />
+</deployment>

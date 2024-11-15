@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>adbddbbb-45cd-4b9e-a94e-bf8f8e187348</id>
+  <author>N/A</author>
+  <deployer>GITHUB_ZIP_DEPLOY</deployer>
+  <authorEmail>N/A</authorEmail>
+  <message>{"type":"deployment","sha":"99eb649b24bec89ae135f6cfae128594f2fefff4","repoName":"adesche/perti","actor":"erikquinn","slotName":"Production","commitMessage":"Improve logic for selecting fixes when multiple exist with the same name"}</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2023-10-01T05:25:59.2484293Z</lastSuccessEndTime>
+  <receivedTime>2023-10-01T05:25:43.8531273Z</receivedTime>
+  <startTime>2023-10-01T05:25:45.1076335Z</startTime>
+  <endTime>2023-10-01T05:25:59.2484293Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+  <buildSummary />
+</deployment>

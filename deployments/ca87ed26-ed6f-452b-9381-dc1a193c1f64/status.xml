@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>ca87ed26-ed6f-452b-9381-dc1a193c1f64</id>
+  <author>N/A</author>
+  <deployer>GITHUB_ZIP_DEPLOY</deployer>
+  <authorEmail>N/A</authorEmail>
+  <message>{"type":"deployment","sha":"3b44d841adc9fd8205e7b7c668a499e381bdab2e","repoName":"adesche/perti","actor":"erikquinn","slotName":"Production","commitMessage":"Add N4166"}</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2024-03-25T03:45:47.3405165Z</lastSuccessEndTime>
+  <receivedTime>2024-03-25T03:45:36.4288813Z</receivedTime>
+  <startTime>2024-03-25T03:45:37.6645162Z</startTime>
+  <endTime>2024-03-25T03:45:47.3405165Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+  <buildSummary />
+</deployment>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>cf5c53d2-b051-4f3a-b7e8-d3795a961a79</id>
+  <author>N/A</author>
+  <deployer>GITHUB_ZIP_DEPLOY</deployer>
+  <authorEmail>N/A</authorEmail>
+  <message>{"type":"deployment","sha":"d2c393f729615605d4f235974452012a083a65fb","repoName":"adesche/perti","actor":"erikquinn","slotName":"Production","commitMessage":"Temporarily disable sigmets to fix load failure"}</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2023-10-17T21:27:33.6652637Z</lastSuccessEndTime>
+  <receivedTime>2023-10-17T21:27:19.928421Z</receivedTime>
+  <startTime>2023-10-17T21:27:21.2982651Z</startTime>
+  <endTime>2023-10-17T21:27:33.6652637Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+  <buildSummary />
+</deployment>

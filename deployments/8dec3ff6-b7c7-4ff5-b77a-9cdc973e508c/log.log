@@ -1,0 +1,55 @@
+2024-04-19T16:23:47.6328592Z,Updating submodules.,edc98a78-293b-4c2c-b412-d0170fb8a8d7,0
+2024-04-19T16:23:48.6985164Z,Preparing deployment for commit id '8dec3ff6-b'.,03cd0f4e-b9b2-4214-a8ff-3b0fec14dfa6,0
+2024-04-19T16:23:48.8631395Z,PreDeployment: context.CleanOutputPath False,77cbf952-0afe-4c16-9bb5-e25626b9d80b,0
+2024-04-19T16:23:48.9221029Z,PreDeployment: context.OutputPath /home/site/wwwroot,d00fccc0-055c-4e26-a4f0-4baf5da7d058,0
+2024-04-19T16:23:48.9989216Z,Repository path is /tmp/zipdeploy/extracted,61566fec-bae9-40f5-8ed4-b8c6b102cf8c,0
+2024-04-19T16:23:49.0473290Z,Running oryx build...,014f35f8-b199-4302-b928-d4183e3f7e78,0
+	2024-04-19T16:23:49.0513085Z,Command: oryx build /tmp/zipdeploy/extracted -o /home/site/wwwroot --platform php --platform-version 7.4 -p virtualenv_name= --log-file /tmp/build-debug.log  -i /tmp/8dc608d17ec32eb | tee /tmp/oryx-build.log,,0
+	2024-04-19T16:23:49.8599982Z,Operation performed by Microsoft Oryx&comma; https://github.com/Microsoft/Oryx,,0
+	2024-04-19T16:23:49.8698823Z,You can report issues at https://github.com/Microsoft/Oryx/issues,,0
+	2024-04-19T16:23:49.8752114Z,,,0
+	2024-04-19T16:23:49.8810261Z,Oryx Version: 0.2.20230508.1&comma; Commit: 7fe2bf39b357dd68572b438a85ca50b5ecfb4592&comma; ReleaseTagName: 20230508.1,,0
+	2024-04-19T16:23:49.8856366Z,,,0
+	2024-04-19T16:23:49.8904032Z,Build Operation ID: d4c79fa9feedd175,,0
+	2024-04-19T16:23:49.8940829Z,Repository Commit : 8dec3ff6-b7c7-4ff5-b77a-9cdc973e508c,,0
+	2024-04-19T16:23:49.9061886Z,OS Type           : bullseye,,0
+	2024-04-19T16:23:49.9179018Z,Image Type        : githubactions,,0
+	2024-04-19T16:23:49.9281601Z,,,0
+	2024-04-19T16:23:49.9323664Z,Detecting platforms...,,0
+	2024-04-19T16:23:50.9254426Z,Detected following platforms:,,0
+	2024-04-19T16:23:50.9339099Z,  php: 7.4.33,,0
+	2024-04-19T16:23:51.0899500Z,,,0
+	2024-04-19T16:23:51.1337224Z,Using intermediate directory '/tmp/8dc608d17ec32eb'.,,0
+	2024-04-19T16:23:51.1446407Z,,,0
+	2024-04-19T16:23:51.1532736Z,Copying files to the intermediate directory...,,0
+	2024-04-19T16:23:51.4868149Z,Done in 0 sec(s).,,0
+	2024-04-19T16:23:51.4941515Z,,,0
+	2024-04-19T16:23:51.4998696Z,Source directory     : /tmp/8dc608d17ec32eb,,0
+	2024-04-19T16:23:51.5072281Z,Destination directory: /home/site/wwwroot,,0
+	2024-04-19T16:23:51.5165347Z,,,0
+	2024-04-19T16:23:51.6815424Z,PHP executable: /tmp/oryx/platforms/php/7.4.33/bin/php,,0
+	2024-04-19T16:23:51.6866599Z,No 'composer.json' file found; not running 'composer install'.,,0
+	2024-04-19T16:23:51.6931125Z,Preparing output...,,0
+	2024-04-19T16:23:51.6984600Z,,,0
+	2024-04-19T16:23:51.7022777Z,Copying files to destination directory '/home/site/wwwroot'...,,0
+	2024-04-19T16:23:57.1275081Z,Done in 5 sec(s).,,0
+	2024-04-19T16:23:57.1366308Z,,,0
+	2024-04-19T16:23:57.1407754Z,Removing existing manifest file,,0
+	2024-04-19T16:23:57.1443478Z,Creating a manifest file...,,0
+	2024-04-19T16:23:57.1494189Z,Manifest file created.,,0
+	2024-04-19T16:23:57.1621474Z,Copying .ostype to manifest output directory.,,0
+	2024-04-19T16:23:57.1684968Z,,,0
+	2024-04-19T16:23:57.1737956Z,Done in 5 sec(s).,,0
+2024-04-19T16:23:57.2783791Z,Running post deployment command(s)...,0def488a-18b7-44d0-a5fb-5d716dc4d2cf,0
+2024-04-19T16:23:57.3352483Z,,180bc90c-d988-44dc-bd79-0344047a27fd,0
+2024-04-19T16:23:57.4100606Z,Generating summary of Oryx build,d6f1f121-6a50-4504-821d-03a482d63742,0
+2024-04-19T16:23:57.4740313Z,Parsing the build logs,9e9aea0d-c0a8-4826-99cd-86b0a6d0d921,0
+2024-04-19T16:23:57.5310309Z,Found 0 issue(s),5df70193-e942-4f41-a32a-db348a2acb13,0
+2024-04-19T16:23:57.5888325Z,,3138639c-3e67-4e37-93d2-d32b1d38d4df,0
+2024-04-19T16:23:57.6469615Z,Build Summary :,1ae9b4da-1a5f-42fe-a48f-bdb2593c5a70,0
+2024-04-19T16:23:57.7331384Z,===============,dcbadfd2-ab71-4a4f-9f3c-6e1526797bdc,0
+2024-04-19T16:23:57.7890885Z,Errors (0),10e70890-d391-435e-8877-fa6c9ae86ff2,0
+2024-04-19T16:23:57.8375658Z,Warnings (0),0e8a2e56-df16-42e3-a2ab-c5b68a23fa00,0
+2024-04-19T16:23:57.8899008Z,,4956d389-c4df-48dd-ad0b-be5d3805bcf4,0
+2024-04-19T16:23:57.9668281Z,Triggering recycle (preview mode disabled).,6b8fb6e6-4246-4ec4-9726-3d4080a4d3ea,0
+2024-04-19T16:23:58.0491051Z,Deployment successful. deployer = GITHUB_ZIP_DEPLOY deploymentPath = ZipDeploy. Extract zip. Remote build.,5f45a3fa-49f9-4097-aab1-bde3121528a8,0

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>a12968e0-8612-41a7-af16-da47c25c989c</id>
+  <author>N/A</author>
+  <deployer>GITHUB_ZIP_DEPLOY</deployer>
+  <authorEmail>N/A</authorEmail>
+  <message>{"type":"deployment","sha":"64c6504565b7a639b81d84daf601629ab2f9abad","repoName":"adesche/perti","actor":"erikquinn","slotName":"Production","commitMessage":"Add half-degree waypoints between SOTA and Madrid, and some Canadian lat/lon fixes"}</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2024-03-23T16:54:49.3643792Z</lastSuccessEndTime>
+  <receivedTime>2024-03-23T16:54:32.2678152Z</receivedTime>
+  <startTime>2024-03-23T16:54:33.4654487Z</startTime>
+  <endTime>2024-03-23T16:54:49.3643792Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+  <buildSummary />
+</deployment>

@@ -1,0 +1,74 @@
+2024-03-23T16:54:32.3581422Z,Updating submodules.,d15c4763-85a0-4ac4-8fbf-7ef6aadc7a94,0
+2024-03-23T16:54:33.4444014Z,Preparing deployment for commit id 'a12968e0-8'.,8ae43102-5a7e-4a09-afc4-760b4de3d177,0
+2024-03-23T16:54:33.5908444Z,PreDeployment: context.CleanOutputPath False,5b6588ea-f7fe-438b-9f8a-1c1000dc2920,0
+2024-03-23T16:54:33.6437525Z,PreDeployment: context.OutputPath /home/site/wwwroot,3d29e6e2-0900-4e48-b57a-0e223cec1ed1,0
+2024-03-23T16:54:33.7073489Z,Repository path is /tmp/zipdeploy/extracted,730b1ba9-6486-421e-bd97-711bf5fd85c4,0
+2024-03-23T16:54:33.7748484Z,Running oryx build...,c44b3f88-2b12-469c-b105-afb95a6cc84b,0
+	2024-03-23T16:54:33.7787001Z,Command: oryx build /tmp/zipdeploy/extracted -o /home/site/wwwroot --platform php --platform-version 7.4 -p virtualenv_name= --log-file /tmp/build-debug.log  -i /tmp/8dc4b59ea536b9b | tee /tmp/oryx-build.log,,0
+	2024-03-23T16:54:35.4132945Z,Operation performed by Microsoft Oryx&comma; https://github.com/Microsoft/Oryx,,0
+	2024-03-23T16:54:35.4198989Z,You can report issues at https://github.com/Microsoft/Oryx/issues,,0
+	2024-03-23T16:54:35.4248455Z,,,0
+	2024-03-23T16:54:35.4316785Z,Oryx Version: 0.2.20230508.1&comma; Commit: 7fe2bf39b357dd68572b438a85ca50b5ecfb4592&comma; ReleaseTagName: 20230508.1,,0
+	2024-03-23T16:54:35.4363233Z,,,0
+	2024-03-23T16:54:35.4395172Z,Build Operation ID: 26884ab8e81de8a3,,0
+	2024-03-23T16:54:35.4433892Z,Repository Commit : a12968e0-8612-41a7-af16-da47c25c989c,,0
+	2024-03-23T16:54:35.4472362Z,OS Type           : bullseye,,0
+	2024-03-23T16:54:35.4505942Z,Image Type        : githubactions,,0
+	2024-03-23T16:54:35.4540370Z,,,0
+	2024-03-23T16:54:35.4586940Z,Detecting platforms...,,0
+	2024-03-23T16:54:36.5724439Z,Detected following platforms:,,0
+	2024-03-23T16:54:36.5897983Z,  php: 7.4.33,,0
+	2024-03-23T16:54:36.5980354Z,Version '7.4.33' of platform 'php' is not installed. Generating script to install it...,,0
+	2024-03-23T16:54:36.7697530Z,,,0
+	2024-03-23T16:54:37.5730501Z,Using intermediate directory '/tmp/8dc4b59ea536b9b'.,,0
+	2024-03-23T16:54:37.5805900Z,,,0
+	2024-03-23T16:54:37.5857520Z,Copying files to the intermediate directory...,,0
+	2024-03-23T16:54:37.5935401Z,Done in 1 sec(s).,,0
+	2024-03-23T16:54:37.5981420Z,,,0
+	2024-03-23T16:54:37.6011543Z,Source directory     : /tmp/8dc4b59ea536b9b,,0
+	2024-03-23T16:54:37.6043275Z,Destination directory: /home/site/wwwroot,,0
+	2024-03-23T16:54:37.6113588Z,,,0
+	2024-03-23T16:54:37.6145601Z,,,0
+	2024-03-23T16:54:37.6201874Z,Downloading and extracting 'php' version '7.4.33' to '/tmp/oryx/platforms/php/7.4.33'...,,0
+	2024-03-23T16:54:37.6264378Z,Detected image debian flavor: bullseye.,,0
+	2024-03-23T16:54:40.2668718Z,Downloaded in 3 sec(s).,,0
+	2024-03-23T16:54:40.2919185Z,Verifying checksum...,,0
+	2024-03-23T16:54:40.3321687Z,Extracting contents...,,0
+	2024-03-23T16:54:41.2706645Z,performing sha512 checksum for: php...,,0
+	2024-03-23T16:54:41.3588914Z,Done in 4 sec(s).,,0
+	2024-03-23T16:54:41.3696727Z,,,0
+	2024-03-23T16:54:41.3794439Z,,,0
+	2024-03-23T16:54:41.3870582Z,Downloading and extracting 'php-composer' version '2.0.8' to '/tmp/oryx/platforms/php-composer/2.0.8'...,,0
+	2024-03-23T16:54:41.4001764Z,Detected image debian flavor: bullseye.,,0
+	2024-03-23T16:54:41.6062112Z,Downloaded in 0 sec(s).,,0
+	2024-03-23T16:54:41.6165438Z,Verifying checksum...,,0
+	2024-03-23T16:54:41.6686103Z,Extracting contents...,,0
+	2024-03-23T16:54:41.7426014Z,performing sha512 checksum for: php-composer...,,0
+	2024-03-23T16:54:41.7639807Z,Done in 0 sec(s).,,0
+	2024-03-23T16:54:41.7733912Z,,,0
+	2024-03-23T16:54:41.9562052Z,PHP executable: /tmp/oryx/platforms/php/7.4.33/bin/php,,0
+	2024-03-23T16:54:41.9629777Z,No 'composer.json' file found; not running 'composer install'.,,0
+	2024-03-23T16:54:41.9721479Z,Preparing output...,,0
+	2024-03-23T16:54:41.9791480Z,,,0
+	2024-03-23T16:54:41.9850938Z,Copying files to destination directory '/home/site/wwwroot'...,,0
+	2024-03-23T16:54:47.9105836Z,Done in 6 sec(s).,,0
+	2024-03-23T16:54:47.9350250Z,,,0
+	2024-03-23T16:54:47.9435157Z,Removing existing manifest file,,0
+	2024-03-23T16:54:47.9511539Z,Creating a manifest file...,,0
+	2024-03-23T16:54:47.9614219Z,Manifest file created.,,0
+	2024-03-23T16:54:47.9663902Z,Copying .ostype to manifest output directory.,,0
+	2024-03-23T16:54:48.0042016Z,,,0
+	2024-03-23T16:54:48.0086020Z,Done in 12 sec(s).,,0
+2024-03-23T16:54:48.2902467Z,Running post deployment command(s)...,df369135-f206-4679-9932-19d3d5c25b3e,0
+2024-03-23T16:54:48.3514037Z,,c620aa42-d6e4-4567-9fd4-f590b54569f0,0
+2024-03-23T16:54:48.4080491Z,Generating summary of Oryx build,1fdf8825-1555-461d-ac79-8cc2998fd68f,0
+2024-03-23T16:54:48.4824367Z,Parsing the build logs,5356ca32-dbc4-4782-a952-38c637a33f9f,0
+2024-03-23T16:54:48.5715391Z,Found 0 issue(s),f2879528-172b-4eca-bd75-c77dd3869894,0
+2024-03-23T16:54:48.6361035Z,,0b725b05-78e5-44a8-8f20-808933e9af5c,0
+2024-03-23T16:54:48.6994176Z,Build Summary :,dca7fe83-dda1-4b69-b80e-268b22122ed6,0
+2024-03-23T16:54:48.7678520Z,===============,fffe13bd-de3b-4fdb-b2c5-510c2a16cd32,0
+2024-03-23T16:54:48.8333553Z,Errors (0),b2fc5d8e-af66-412a-8a0e-d3bcbadbe352,0
+2024-03-23T16:54:48.8960769Z,Warnings (0),2f4ae20f-eafb-4901-b10d-97145da38f7d,0
+2024-03-23T16:54:48.9598205Z,,21287b9e-914b-4e26-ada9-146b9fc7dc6b,0
+2024-03-23T16:54:49.0503620Z,Triggering recycle (preview mode disabled).,1032f451-c32c-4fc8-b4de-77f3638be569,0
+2024-03-23T16:54:49.1409004Z,Deployment successful. deployer = GITHUB_ZIP_DEPLOY deploymentPath = ZipDeploy. Extract zip. Remote build.,990f702a-76f1-40e4-8ca7-94a7c36a2ae1,0

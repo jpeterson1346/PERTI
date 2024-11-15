@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>42e17309-3802-4b50-85ea-5ec3aecca32e</id>
+  <author>N/A</author>
+  <deployer>GITHUB_ZIP_DEPLOY</deployer>
+  <authorEmail>N/A</authorEmail>
+  <message>{"type":"deployment","sha":"31ec8302d5109b8416da8d44aed7b62ec1005706","repoName":"adesche/perti","actor":"erikquinn","slotName":"Production","commitMessage":"Add waypoint AVADA in ZYZ"}</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2024-03-23T17:20:06.2644395Z</lastSuccessEndTime>
+  <receivedTime>2024-03-23T17:19:58.7527374Z</receivedTime>
+  <startTime>2024-03-23T17:19:59.9741285Z</startTime>
+  <endTime>2024-03-23T17:20:06.2644395Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+  <buildSummary />
+</deployment>

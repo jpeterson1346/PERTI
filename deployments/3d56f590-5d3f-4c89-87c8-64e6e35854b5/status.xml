@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>3d56f590-5d3f-4c89-87c8-64e6e35854b5</id>
+  <author>N/A</author>
+  <deployer>GITHUB_ZIP_DEPLOY</deployer>
+  <authorEmail>N/A</authorEmail>
+  <message>{"type":"deployment","sha":"855ff997289c9b0c2a59ba5970b91de74c0db97f","repoName":"adesche/perti","actor":"erikquinn","slotName":"Production","commitMessage":"Add half-degree fixes in southeastern EGGX and down into LPPO at 43N and higher, between 11W and 20W"}</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2024-04-10T02:48:51.6888718Z</lastSuccessEndTime>
+  <receivedTime>2024-04-10T02:48:42.5383Z</receivedTime>
+  <startTime>2024-04-10T02:48:43.7408615Z</startTime>
+  <endTime>2024-04-10T02:48:51.6888718Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+  <buildSummary />
+</deployment>

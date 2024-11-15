@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>2b52ee13-3ce4-4746-b160-a28a3f38ce44</id>
+  <author>N/A</author>
+  <deployer>GITHUB_ZIP_DEPLOY</deployer>
+  <authorEmail>N/A</authorEmail>
+  <message>{"type":"deployment","sha":"8ac04062f47a2f10ebedf387eafbf655fc8fce08","repoName":"adesche/perti","actor":"erikquinn","slotName":"Production","commitMessage":"Add ANATI"}</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2024-04-02T12:45:07.4258947Z</lastSuccessEndTime>
+  <receivedTime>2024-04-02T12:44:54.938893Z</receivedTime>
+  <startTime>2024-04-02T12:44:56.2130252Z</startTime>
+  <endTime>2024-04-02T12:45:07.4258947Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+  <buildSummary />
+</deployment>

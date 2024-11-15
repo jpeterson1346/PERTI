@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<deployment>
+  <id>1aa0fd40-ede4-4fcb-9eba-35d0d3c95a7b</id>
+  <author>N/A</author>
+  <deployer>GITHUB_ZIP_DEPLOY</deployer>
+  <authorEmail>N/A</authorEmail>
+  <message>{"type":"deployment","sha":"7708af7fc902124aa208c16bb195a7a0575e4a98","repoName":"adesche/perti","actor":"erikquinn","slotName":"Production","commitMessage":"Add fix ARTIG"}</message>
+  <progress></progress>
+  <status>Success</status>
+  <statusText></statusText>
+  <lastSuccessEndTime>2023-10-20T02:38:23.7577586Z</lastSuccessEndTime>
+  <receivedTime>2023-10-20T02:38:14.9424621Z</receivedTime>
+  <startTime>2023-10-20T02:38:16.2545215Z</startTime>
+  <endTime>2023-10-20T02:38:23.7577586Z</endTime>
+  <complete>True</complete>
+  <is_temp>False</is_temp>
+  <is_readonly>True</is_readonly>
+  <buildSummary />
+</deployment>
