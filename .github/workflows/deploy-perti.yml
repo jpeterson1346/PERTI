@@ -7,8 +7,8 @@ on:
 
 env:
   # Set these to match your App Service
-  AZURE_WEBAPP_NAME: vatcscc-perti        # <- your App Service name
-  AZURE_WEBAPP_SLOT_NAME: perti-slot     # <- or leave blank/remove if deploying to production slot
+  AZURE_WEBAPP_NAME: perti-staging        # <- your App Service name
+  AZURE_WEBAPP_SLOT_NAME: vatcscc     # <- or leave blank/remove if deploying to production slot
   AZURE_WEBAPP_PACKAGE_PATH: '.'         # path to your app (root of repo)
 
 jobs:
