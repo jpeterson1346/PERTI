@@ -1,0 +1,40 @@
+name: Build and deploy PERTI to Azure Web App
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+env:
+  # Set these to match your App Service
+  AZURE_WEBAPP_NAME: vatcscc-perti        # <- your App Service name
+  AZURE_WEBAPP_SLOT_NAME: perti-slot     # <- or leave blank/remove if deploying to production slot
+  AZURE_WEBAPP_PACKAGE_PATH: '.'         # path to your app (root of repo)
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # OPTIONAL: if you have a build step, put it here
+      # (npm install && npm run build, dotnet publish, etc.)
+      # For now we just zip the repo contents.
+
+      - name: Create deployment package
+        run: |
+          mkdir -p output
+          rsync -av --exclude '.git' --exclude '.github' ./ ./output/
+          cd output
+          zip -r ../app.zip .
+
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          # Uncomment the next line if you are deploying to a slot
+          # slot-name: ${{ env.AZURE_WEBAPP_SLOT_NAME }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_PERTI }}
+          package: app.zip
